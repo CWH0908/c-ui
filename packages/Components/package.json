@@ -1,6 +1,6 @@
 {
   "name": "cwh-ui-components",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "cwh 组件库",
   "main": "index.js",
   "scripts": {
