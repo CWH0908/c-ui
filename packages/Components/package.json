@@ -8,5 +8,8 @@
   },
   "author": "cwh",
   "license": "ISC",
-  "gitHead": "e542ad77440d80cced89fc991e94a7907574a665"
+  "gitHead": "e542ad77440d80cced89fc991e94a7907574a665",
+  "dependencies": {
+    "vue": "^2.6.14"
+  }
 }
