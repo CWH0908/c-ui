@@ -1,6 +1,6 @@
 {
   "name": "cwh-ui-next",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "组件demo",
   "main": "index.js",
   "scripts": {
