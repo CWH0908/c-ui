@@ -1,6 +1,6 @@
 {
   "name": "c-ui-demo",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "组件demo",
   "main": "index.js",
   "scripts": {
@@ -8,5 +8,5 @@
   },
   "author": "cwh",
   "license": "ISC",
-  "gitHead": "696bd94d7e22ddc4bec6cd9d25d7ad18a6d149e6"
+  "gitHead": "1cb2949ef8a11af887552d86fcd34be5e8668ec7"
 }
