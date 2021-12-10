@@ -7,5 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "cwh",
-  "license": "ISC"
+  "license": "ISC",
+  "gitHead": "696bd94d7e22ddc4bec6cd9d25d7ad18a6d149e6"
 }
