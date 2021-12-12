@@ -1,5 +1,5 @@
 <template>
-  <div :class="$style.container" @click="clickBtn">按钮组件</div>
+  <div @click="clickBtn">按钮组件</div>
 </template>
 
 <script lang="ts">
@@ -14,9 +14,3 @@ export default class Button extends Vue {
   }
 }
 </script>
-
-<style lang="scss" module>
-.container {
-  background-color: pink;
-}
-</style>
