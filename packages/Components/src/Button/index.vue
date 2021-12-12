@@ -3,14 +3,14 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue } from "vue-property-decorator";
+import { Component, Vue } from 'vue-property-decorator'
 
 @Component({
-  name: "CwhButton",
+  name: 'CwhButton'
 })
 export default class Button extends Vue {
   clickBtn() {
-    alert("按钮点击");
+    alert('按钮点击')
   }
 }
 </script>

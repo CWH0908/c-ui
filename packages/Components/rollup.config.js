@@ -11,7 +11,8 @@ import replace from 'rollup-plugin-replace'
 // 入口
 const input = 'src/index.js'
 // 插件
-const plugins = [ // 顺序无严格要求，目前观察buble需要放在vue下面
+const plugins = [
+  // 顺序无严格要求，目前观察buble需要放在vue下面
   json(),
   nodeResolve(),
   commonjs(),
@@ -35,24 +36,35 @@ export default [
     input,
     // 出口
     output: {
-      file: 'dist/index.umd.js',
+      file: 'dist/index.js',
       format: 'umd', // umd格式为amd, cjs, iife的结合
       name: 'rollup-vue-ts', // 此处修改为希望包挂在window上的名称
       sourcemap: false
     },
     plugins,
     external
-  },
-  {
-    input,
-    // 出口
-    output: {
-      file: 'dist/index.esm.js',
-      format: 'es', // es格式，推荐同时输出一份es格式的, 提供给模块化打包工具
-      sourcemap: false
-    },
-    plugins,
-    external
   }
+  // {
+  //   input,
+  //   // 出口
+  //   output: {
+  //     file: 'dist/index.umd.js',
+  //     format: 'umd', // umd格式为amd, cjs, iife的结合
+  //     name: 'rollup-vue-ts', // 此处修改为希望包挂在window上的名称
+  //     sourcemap: false
+  //   },
+  //   plugins,
+  //   external
+  // },
+  // {
+  //   input,
+  //   // 出口
+  //   output: {
+  //     file: 'dist/index.esm.js',
+  //     format: 'es', // es格式，推荐同时输出一份es格式的, 提供给模块化打包工具
+  //     sourcemap: false
+  //   },
+  //   plugins,
+  //   external
+  // }
 ]
-
