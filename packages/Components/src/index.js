@@ -1,4 +1,4 @@
-import Button from "./Button/index.vue";
+import Button from "./lib/Button/index.vue";
 
 const components = [Button];
 
