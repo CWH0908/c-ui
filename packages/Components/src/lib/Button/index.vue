@@ -11,6 +11,7 @@ import { Component, Vue } from 'vue-property-decorator'
 export default class Button extends Vue {
   clickBtn() {
     alert('按钮点击')
+    console.log('按钮被点击')
   }
 }
 </script>
