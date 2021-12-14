@@ -2,7 +2,11 @@
   "name": "root",
   "private": false,
   "npmClient": "yarn",
+  "scripts": {
+    "prepare": "husky install"
+  },
   "devDependencies": {
+    "husky": "^7.0.4",
     "lerna": "^4.0.0",
     "rollup": "^2.61.1",
     "rollup-plugin-buble": "^0.19.8",
