@@ -17,8 +17,9 @@ export default class Button extends Vue {
 </script>
 
 <style lang="scss" module>
-.container {
-  background-color: red;
-  color: white;
-}
+@import './button.scss';
+// .container {
+//   background-color: red;
+//   color: white;
+// }
 </style>
