@@ -20,7 +20,8 @@
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
-    "build": "rm -rf dist && rollup -c"
+    "build": "rm -rf dist && rollup -c && yarn copy",
+    "copy": "cp package.json README.md dist"
   },
   "bugs": {
     "url": "https://github.com/CWH0908/c-ui/issues"
