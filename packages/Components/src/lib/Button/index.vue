@@ -1,5 +1,8 @@
 <template>
-  <div :class="$style.container" @click="clickBtn">按钮组件</div>
+  <div :class="$style.container">
+    点击次数{{ count }}
+    <div :class="$style.btn" @click="clickBtn">按钮组件</div>
+  </div>
 </template>
 
 <script lang="ts">
@@ -9,8 +12,9 @@ import { Component, Vue } from 'vue-property-decorator'
   name: 'CwhButton'
 })
 export default class Button extends Vue {
+  count: number = 0
   clickBtn() {
-    alert('按钮点击')
+    this.count = this.count++
     console.log('按钮被点击')
   }
 }
@@ -18,8 +22,4 @@ export default class Button extends Vue {
 
 <style lang="scss" module>
 @import './button.scss';
-// .container {
-//   background-color: red;
-//   color: white;
-// }
 </style>
