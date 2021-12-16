@@ -14,7 +14,7 @@ import { Component, Vue } from 'vue-property-decorator'
 export default class Button extends Vue {
   count: number = 0
   clickBtn() {
-    this.count = this.count++
+    this.count++
     console.log('按钮被点击')
   }
 }
