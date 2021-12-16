@@ -14,6 +14,15 @@ Lerna还可以减少开发和构建环境中对大量包副本的时间和空间
 
 ### 使用rollup的原因
 Rollup 是一个 JavaScript 模块打包器，可以将小块代码编译成大块复杂的代码，例如 library 或应用程序。
+
 Rollup 对代码模块使用新的标准化格式，这些标准都包含在 JavaScript 的 ES6 版本中，而不是以前的特殊解决方案，如 CommonJS 和 AMD。
+
 ES6 模块可以使你自由、无缝地使用你最喜爱的 library 中那些最有用独立函数，而你的项目不必携带其他未使用的代码。
+
 ES6 模块最终还是要由浏览器原生实现，但当前 Rollup 可以使你提前体验。
+
+
+### 使用jest + Vue Test Utils进行单元测试的原因
+Jest是 Facebook 的一套开源的 JavaScript 测试框架， 它自动集成了断言、JSDom、覆盖率报告等开发者所需要的所有测试工具，配置较少，对vue框架友好。
+
+Vue Test Utils 是 Vue.js 官方的单元测试实用工具库，为jest和vue提供了一个桥梁，暴露出一些接口，让我们更加方便的通过Jest为Vue应用编写单元测试。
