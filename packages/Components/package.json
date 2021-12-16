@@ -49,5 +49,6 @@
   },
   "dependencies": {
     "babel-core": "^6.26.3"
-  }
+  },
+  "gitHead": "f76eb32632d3f332d957e02b0382c1419cb416e9"
 }
