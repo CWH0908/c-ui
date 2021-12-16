@@ -1,7 +1,7 @@
 <template>
   <div :class="$style.container">
     点击次数{{ count }}
-    <div :class="$style.btn" @click="clickBtn">按钮组件</div>
+    <button id="btn" :class="$style.btn" @click="clickBtn">按钮组件</button>
   </div>
 </template>
 

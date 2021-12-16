@@ -17,8 +17,6 @@ module.exports = {
     '^.+\\.js$': '<rootDir>/node_modules/babel-jest',
     '.*\\.(vue)$': '<rootDir>/node_modules/vue-jest'
   },
-  // transformIgnorePatterns: ["/!node_modules\\/lodash-es/"],
-  // transformIgnorePatterns: ['<rootDir>/node_modules/(?!lodash-es)'],
   // setupFiles: ['<rootDir>/test/unit/setup'], // 运行一些测试环境所要依赖的模块的路径列表，类似 webpack.entry
   coverageDirectory: '<rootDir>/coverage', // jest输出覆盖率信息文件的目录，类似 webpack.output
   collectCoverageFrom: [

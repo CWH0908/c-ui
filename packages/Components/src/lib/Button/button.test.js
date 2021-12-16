@@ -8,8 +8,7 @@ describe('Button.vue', () => {
   const wrapper = mount(Button)
   it('click button', async () => {
     // 点击按钮
-    wrapper.trigger('click')
-    await wrapper.vm.$nextTick()
+    await wrapper.find('#btn').trigger('click')
     expect(wrapper.vm.$data.count).toEqual(1)
   })
 })
