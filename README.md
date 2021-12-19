@@ -7,10 +7,6 @@ yarn add cwh-ui
 ```
 
 ### Button组件
-```sh
-
-import { Button as CwhButton } from 'cwh-ui'
-
 ```vue demo
 <template>
   <div id="app">
