@@ -1,0 +1,21 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev",
+    "docs:build": "vuepress build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.0",
+    "sass-loader": "^12.4.0",
+    "vuepress": "^1.8.2"
+  },
+  "dependencies": {
+    "cwh-ui": "^0.0.25"
+  }
+}
