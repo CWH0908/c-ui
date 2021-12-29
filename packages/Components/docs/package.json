@@ -17,5 +17,6 @@
   },
   "dependencies": {
     "cwh-ui": "^0.0.26"
-  }
+  },
+  "gitHead": "c3cbf37d7c9eb8c70a6d0aee3c447a9f18e4d75a"
 }
